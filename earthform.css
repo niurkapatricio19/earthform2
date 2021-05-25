@@ -1,0 +1,65 @@
+
+	 }
+	 h1{
+	 	font-size:40px;
+	 	font-style:bold;
+	 	color:greenyellow; 
+	 	text-align:center; 
+
+	 }
+#leftbox{
+	float:left;
+	background-color:beige;
+	width:32%;
+	height:600px;
+	margin:10px;
+}
+#middlebox{
+	float:left;
+	background-color:pink;
+	width:32%;
+	height:600px;
+	margin:10px;
+}
+#rightbox{
+	float:left;
+	background-color:skyblue;
+	width:32%;
+	height:600px;
+	margin:10px;
+}
+#status{
+	width:90%;
+	text-align: center;
+	padding:10px;
+}
+#status.success{
+	background-color: greenyellow;
+	animation:status 4s ease forwards;
+
+}
+
+#status.error{
+	background-color: orange;
+	color:white;
+	animation:status 4s ease forwards;
+	}
+
+@keyframes status{
+	0%{
+		opacity:1;
+		pointer-events: all;
+
+	}
+	90%{
+		opacity:1;
+		pointer-events: all;
+	
+	}
+	100%{
+		opacity:0;
+		pointer-events: none;
+	
+	}
+
+}
